@@ -1,7 +1,3 @@
-from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException, \
-    WebDriverException
-# from selenium.webdriver.common.keys import Keys
 import requests
 from random import randint
 from time import sleep
@@ -14,10 +10,6 @@ from tqdm import tqdm
 
 config = Config()
 config.request_timeout = 10
-
-# browser = webdriver.Chrome("chromedriver.exe")
-
-# browser.get("https://www.beta.team/developments/page/")
 
 url = 'https://www.beta.team/developments/page/'
 scraped_data = []

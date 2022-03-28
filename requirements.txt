@@ -12,5 +12,6 @@ pandas==1.2.5
 scikit-learn==1.0.2
 selenium==4.1.2
 fuzzywuzzy==0.18.0
+torch==1.10.2+cu102
 https://github.com/explosion/spacy-models/releases/download/pt_core_news_lg-3.2.0/pt_core_news_lg-3.2.0.tar.gz#egg=pt_core_news_lg
 https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.2.0/en_core_web_trf-3.2.0.tar.gz#egg=en_core_web_trf

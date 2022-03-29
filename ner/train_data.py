@@ -20,14 +20,14 @@ COMPANIES = ["Vertical Aerospace", "Archer Aviation", "Joby Aviation", \
 # PRODUCT, EVENT, WORK_OF_ART, LAW, LANGUAGE, DATE, TIME (smaller than a day)
 # PERCENT, MONEY, QUANTITY, ORDINAL, CARDINAL
 
-train_strs = {
-    "Uber blew through $1 million a week" : {"Uber" : "ORG"},
-    "Android Pay expands to Canada" : {"Android": "PRODUCT", "Canada" : "GPE"},
-    "Spotify steps up Asia expansion" : {"Spotify" : "ORG", "Asia" : "GPE"},
-    "Google Maps launches location sharing" : {"Google Maps" : "PRODUCT"},
-    "Google rebrands its business apps" : {"Google" : "ORG"},
-    "look what i found on google! 😂" : {"google" : "PRODUCT"}
-}
+# train_strs = {
+#     "Uber blew through $1 million a week" : {"Uber" : "ORG"},
+#     "Android Pay expands to Canada" : {"Android": "PRODUCT", "Canada" : "GPE"},
+#     "Spotify steps up Asia expansion" : {"Spotify" : "ORG", "Asia" : "GPE"},
+#     "Google Maps launches location sharing" : {"Google Maps" : "PRODUCT"},
+#     "Google rebrands its business apps" : {"Google" : "ORG"},
+#     "look what i found on google! 😂" : {"google" : "PRODUCT"}
+# }
 
 def patt_finder(substr, string):
     start_idx = string.index(substr)

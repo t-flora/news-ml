@@ -31,8 +31,7 @@ base_url = 'https://api.newscatcherapi.com/v2/search'
 
 # Your API key
 try:
-    # API_KEY = os.environ["API_KEY"]
-    API_KEY = 'mJbFLm6g6y3SBPphjxIIZLW6qa4a3xllxKO5y-0wMLE'
+    API_KEY = os.environ["NC_API_KEY"]
     assert(API_KEY is not None)
 except:
     raise ValueError("API key not found")
